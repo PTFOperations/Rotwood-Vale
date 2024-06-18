@@ -5,7 +5,11 @@
 	var/ntype = text2num(type)
 
 	//Add client links
+<<<<<<< Updated upstream
 	var/dat = ""
+=======
+	var/list/dat = list()
+>>>>>>> Stashed changes
 	if(M.client)
 		dat += "<center><p>Client</p></center>"
 		dat += "<center>"
